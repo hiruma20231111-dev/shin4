@@ -116,7 +116,7 @@ function HeroBody({ mode }: { mode: Mode }) {
           {brand.primaryCtaLabel}
         </a>
         <a
-          href={mode === 'day' ? '#final-cta' : '#reservation-form'}
+          href="#reservation-form"
           style={minTouch}
           className="inline-flex items-center justify-center rounded-mode-md border border-day-primary night:border-night-primary px-6 py-3 text-day-primary night:text-night-primary hover:bg-day-primary/10 night:hover:bg-night-primary/15 transition-colors"
         >

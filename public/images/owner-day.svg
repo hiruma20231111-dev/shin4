@@ -1,18 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Misaki Sakurai">
-  <defs>
-    <linearGradient id="g1ewwu2e" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FAF5EC"/>
-      <stop offset="100%" stop-color="#7BA88B"/>
-    </linearGradient>
-    <radialGradient id="g2wzre0i" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3FA9A1" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="800" height="1000" fill="url(#g1ewwu2e)"/>
-  <circle cx="400" cy="450" r="256" fill="url(#g2wzre0i)"/>
-  <g fill="#2B3E3B" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">OWNER</text>
-    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Misaki Sakurai</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Sunday Bowls オーナー 櫻井美咲のシルエット">
+    <defs>
+      <linearGradient id="od_bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#E8F3F0"/>
+        <stop offset="60%" stop-color="#FAF5EC"/>
+        <stop offset="100%" stop-color="#F0E6D2"/>
+      </linearGradient>
+      <radialGradient id="od_sun" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
+        <stop offset="100%" stop-color="#E89B6C" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="800" height="1000" fill="url(#od_bg)"/>
+    <circle cx="560" cy="250" r="220" fill="url(#od_sun)"/>
+    <circle cx="560" cy="250" r="80" fill="#E89B6C"/>
+    <!-- 葉の装飾 -->
+    <g fill="#5A8569" opacity="0.65">
+      <path d="M 50 550 Q 120 500 180 600 Q 110 580 50 650 Z"/>
+      <path d="M 30 700 Q 110 660 160 750 Q 90 740 30 800 Z"/>
+    </g>
+    <!-- 抽象シルエット (肩〜頭, 結んだ髪のヨガインストラクター想起) -->
+    <g transform="translate(400,700)">
+      <!-- 肩のライン -->
+      <path d="M -240 200 Q -200 60 -110 30 Q -50 22 0 22 Q 50 22 110 30 Q 200 60 240 200 Z" fill="#3FA9A1"/>
+      <!-- ネックライン (Vネック) -->
+      <path d="M -40 30 Q 0 80 40 30" stroke="#FAF5EC" stroke-width="3" fill="none" opacity="0.6"/>
+      <!-- 首 -->
+      <rect x="-22" y="-30" width="44" height="55" fill="#2B3E3B"/>
+      <!-- 頭部 -->
+      <ellipse cx="0" cy="-90" rx="78" ry="92" fill="#2B3E3B"/>
+      <!-- お団子ヘア -->
+      <circle cx="0" cy="-180" r="42" fill="#2B3E3B"/>
+      <circle cx="0" cy="-180" r="38" fill="#2B3E3B"/>
+      <!-- イヤリング (アクセント) -->
+      <circle cx="-72" cy="-60" r="6" fill="#E89B6C"/>
+      <circle cx="72" cy="-60" r="6" fill="#E89B6C"/>
+    </g>
+    <text x="400" y="960" fill="#2B3E3B" font-family="Georgia, serif" font-size="22" text-anchor="middle" opacity="0.7" letter-spacing="3">SUNDAY BOWLS · OWNER</text>
+  </svg>

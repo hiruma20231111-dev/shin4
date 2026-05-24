@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Post #1">
-  <defs>
-    <linearGradient id="g1drf75d" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FAF5EC"/>
-      <stop offset="100%" stop-color="#7BA88B"/>
-    </linearGradient>
-    <radialGradient id="g2yfgle5" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3FA9A1" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1000" height="1000" fill="url(#g1drf75d)"/>
-  <circle cx="500" cy="450" r="320" fill="url(#g2yfgle5)"/>
-  <g fill="#2B3E3B" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">@sunday_bowls</text>
-    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Post #1</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="サンライズボウル">
+      <rect width="1000" height="1000" fill="#F0E6D2"/>
+      <ellipse cx="512" cy="518" rx="320" ry="200" fill="#2B3E3B" opacity="0.16"/>
+      <g transform="translate(500,500)">
+    <ellipse cx="0" cy="0" rx="280" ry="173.6" fill="#7BA88B"/>
+    <ellipse cx="0" cy="-6" rx="263.2" ry="156.8" fill="#F2EAD8"/>
+    <ellipse cx="0" cy="-4" rx="240.79999999999998" ry="145.6" fill="#5C3A6E"/>
+    <!-- トッピング -->
+    <ellipse cx="98.0" cy="-6.0" rx="32" ry="24.96" fill="#D14A5A" transform="rotate(0 98.0 -6.0)"/><ellipse cx="58.8" cy="55.1" rx="28" ry="21.84" fill="#E8B85C" transform="rotate(63 58.8 55.1)"/><ellipse cx="-49.0" cy="44.9" rx="30" ry="23.400000000000002" fill="#D14A5A" transform="rotate(126 -49.0 44.9)"/><ellipse cx="-117.6" cy="-6.0" rx="26" ry="20.28" fill="#E8B85C" transform="rotate(188 -117.6 -6.0)"/><ellipse cx="-49.0" cy="-56.9" rx="32" ry="24.96" fill="#D14A5A" transform="rotate(251 -49.0 -56.9)"/><ellipse cx="58.8" cy="-67.1" rx="22" ry="17.16" fill="#5A8569" transform="rotate(314 58.8 -67.1)"/>
+    <!-- ミントの葉 -->
+    <g transform="translate(14,-112) rotate(-30)">
+      <ellipse cx="0" cy="0" rx="28" ry="16" fill="#5A8569"/>
+      <ellipse cx="22" cy="-8" rx="22" ry="12" fill="#5A8569" opacity="0.85"/>
+    </g>
+    <!-- グラノーラ -->
+    <circle cx="70.0" cy="-4.0" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="103.3" cy="11.3" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="126.4" cy="35.8" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="134.1" cy="67.3" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="39.8" cy="30.6" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="37.7" cy="55.7" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="17.2" cy="81.1" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="-21.6" cy="102.7" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="-24.8" cy="35.3" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="-60.4" cy="48.5" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="-106.9" cy="52.8" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="-158.7" cy="46.0" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="-68.0" cy="6.1" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="-106.4" cy="-4.0" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="-138.7" cy="-24.5" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="-158.7" cy="-54.0" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="-52.4" cy="-31.9" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="-60.4" cy="-56.5" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="-50.6" cy="-84.1" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="-21.6" cy="-110.7" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="8.4" cy="-45.7" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="37.7" cy="-63.7" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="81.1" cy="-74.5" r="3.0" fill="#A87B4A" opacity="0.75"/><circle cx="134.1" cy="-75.3" r="4.0" fill="#A87B4A" opacity="0.75"/><circle cx="62.0" cy="-23.5" r="2.0" fill="#A87B4A" opacity="0.75"/><circle cx="103.3" cy="-19.3" r="3.0" fill="#A87B4A" opacity="0.75"/>
   </g>
-</svg>
+    <text x="20" y="980" fill="#2B3E3B" font-family="Georgia, serif" font-size="18" opacity="0.6">@sunday_bowls</text></svg>

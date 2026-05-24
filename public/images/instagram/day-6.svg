@@ -1,18 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Post #6">
-  <defs>
-    <linearGradient id="g1pt4og6" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FAF5EC"/>
-      <stop offset="100%" stop-color="#7BA88B"/>
-    </linearGradient>
-    <radialGradient id="g2o3e7ee" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3FA9A1" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1000" height="1000" fill="url(#g1pt4og6)"/>
-  <circle cx="500" cy="450" r="320" fill="url(#g2o3e7ee)"/>
-  <g fill="#2B3E3B" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">@sunday_bowls</text>
-    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Post #6</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="砂浜の朝">
+      <defs>
+        <linearGradient id="d5_b" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#E8F3F0"/>
+          <stop offset="55%" stop-color="#7DC4BD"/>
+          <stop offset="60%" stop-color="#2F8B83"/>
+          <stop offset="80%" stop-color="#F0E6D2"/>
+          <stop offset="100%" stop-color="#D9C9A8"/>
+        </linearGradient>
+      </defs>
+      <rect width="1000" height="1000" fill="url(#d5_b)"/>
+      <circle cx="780" cy="250" r="80" fill="#E89B6C"/>
+      <g stroke="#FAF5EC" stroke-width="2" fill="none" opacity="0.65">
+        <path d="M 0 600 Q 500 592 1000 600"/><path d="M 0 622 Q 500 614 1000 622"/><path d="M 0 644 Q 500 636 1000 644"/><path d="M 0 666 Q 500 658 1000 666"/><path d="M 0 688 Q 500 680 1000 688"/>
+      </g>
+      <g transform="translate(150,780) scale(1)">
+    <path d="M 0 0 Q -3 -100 -6 -200 Q -4 -210 -3 -220 L 3 -220 Q 4 -210 6 -200 Q 3 -100 0 0 Z" fill="#2B3E3B"/>
+    <g fill="#5A8569" opacity="0.92">
+      <path d="M 0 -215 Q -90 -250 -160 -210 Q -90 -235 0 -200 Z"/>
+      <path d="M 0 -215 Q 90 -255 165 -215 Q 90 -240 0 -200 Z"/>
+      <path d="M 0 -215 Q -50 -280 -110 -290 Q -50 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q 55 -280 120 -290 Q 55 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q -20 -300 -30 -340 Q -10 -300 0 -220 Z"/>
+      <path d="M 0 -215 Q 25 -300 35 -340 Q 10 -300 0 -220 Z"/>
+    </g>
+    <g fill="#5A8569" opacity="0.6">
+      <circle cx="-12" cy="-205" r="6"/>
+      <circle cx="8" cy="-208" r="5"/>
+      <circle cx="-3" cy="-200" r="6"/>
+    </g>
   </g>
-</svg>
+    <text x="20" y="980" fill="#2B3E3B" font-family="Georgia, serif" font-size="18" opacity="0.6">@sunday_bowls</text></svg>

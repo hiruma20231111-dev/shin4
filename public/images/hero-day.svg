@@ -1,18 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Morning Light, Acai & Spice">
-  <defs>
-    <linearGradient id="g1fgjfcy" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FAF5EC"/>
-      <stop offset="100%" stop-color="#7BA88B"/>
-    </linearGradient>
-    <radialGradient id="g284kfnq" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3FA9A1" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1920" height="1080" fill="url(#g1fgjfcy)"/>
-  <circle cx="960" cy="486" r="345.6" fill="url(#g284kfnq)"/>
-  <g fill="#2B3E3B" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="928.8" text-anchor="middle" font-size="54" letter-spacing="2">SUNDAY BOWLS</text>
-    <text x="50%" y="993.6" text-anchor="middle" font-size="38" opacity="0.7">Morning Light, Acai & Spice</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Sunday Bowls 朝の海辺のヒーロービジュアル">
+    <defs>
+      <linearGradient id="hd_sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#E8F3F0"/>
+        <stop offset="55%" stop-color="#FAF5EC"/>
+        <stop offset="100%" stop-color="#F0E6D2"/>
+      </linearGradient>
+      <linearGradient id="hd_ocean" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#7DC4BD"/>
+        <stop offset="100%" stop-color="#2F8B83"/>
+      </linearGradient>
+      <radialGradient id="hd_sun" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#E89B6C" stop-opacity="1"/>
+        <stop offset="60%" stop-color="#E89B6C" stop-opacity="0.45"/>
+        <stop offset="100%" stop-color="#E89B6C" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#hd_sky)"/>
+    <!-- 朝陽 -->
+    <circle cx="1497.6000000000001" cy="345.6" r="320" fill="url(#hd_sun)"/>
+    <circle cx="1497.6000000000001" cy="345.6" r="110" fill="#E89B6C" opacity="0.9"/>
+    <!-- 海 -->
+    <rect x="0" y="594" width="1920" height="237.6" fill="url(#hd_ocean)"/>
+    <!-- 波 -->
+    <g stroke="#FAF5EC" stroke-width="2" fill="none" opacity="0.55">
+      <path d="M 0 626.4 Q 480 618.4 960 626.4 T 1920 626.4"/><path d="M 0 656.4 Q 480 648.4 960 656.4 T 1920 656.4"/><path d="M 0 686.4 Q 480 678.4 960 686.4 T 1920 686.4"/><path d="M 0 716.4 Q 480 708.4 960 716.4 T 1920 716.4"/><path d="M 0 746.4 Q 480 738.4 960 746.4 T 1920 746.4"/>
+    </g>
+    <!-- 砂浜 -->
+    <rect x="0" y="831.6" width="1920" height="248.4" fill="#F0E6D2"/>
+    <ellipse cx="960" cy="842.4" rx="1152" ry="43.2" fill="#FAF5EC" opacity="0.6"/>
+    <!-- ヤシの木 (左奥) -->
+    <g transform="translate(230.39999999999998,831.6) scale(1.2)">
+    <path d="M 0 0 Q -3 -100 -6 -200 Q -4 -210 -3 -220 L 3 -220 Q 4 -210 6 -200 Q 3 -100 0 0 Z" fill="#2B3E3B"/>
+    <g fill="#5A8569" opacity="0.92">
+      <path d="M 0 -215 Q -90 -250 -160 -210 Q -90 -235 0 -200 Z"/>
+      <path d="M 0 -215 Q 90 -255 165 -215 Q 90 -240 0 -200 Z"/>
+      <path d="M 0 -215 Q -50 -280 -110 -290 Q -50 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q 55 -280 120 -290 Q 55 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q -20 -300 -30 -340 Q -10 -300 0 -220 Z"/>
+      <path d="M 0 -215 Q 25 -300 35 -340 Q 10 -300 0 -220 Z"/>
+    </g>
+    <g fill="#5A8569" opacity="0.6">
+      <circle cx="-12" cy="-205" r="6"/>
+      <circle cx="8" cy="-208" r="5"/>
+      <circle cx="-3" cy="-200" r="6"/>
+    </g>
   </g>
-</svg>
+    <g transform="translate(96,896.4) scale(0.9)">
+    <path d="M 0 0 Q -3 -100 -6 -200 Q -4 -210 -3 -220 L 3 -220 Q 4 -210 6 -200 Q 3 -100 0 0 Z" fill="#2B3E3B"/>
+    <g fill="#5A8569" opacity="0.92">
+      <path d="M 0 -215 Q -90 -250 -160 -210 Q -90 -235 0 -200 Z"/>
+      <path d="M 0 -215 Q 90 -255 165 -215 Q 90 -240 0 -200 Z"/>
+      <path d="M 0 -215 Q -50 -280 -110 -290 Q -50 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q 55 -280 120 -290 Q 55 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q -20 -300 -30 -340 Q -10 -300 0 -220 Z"/>
+      <path d="M 0 -215 Q 25 -300 35 -340 Q 10 -300 0 -220 Z"/>
+    </g>
+    <g fill="#5A8569" opacity="0.6">
+      <circle cx="-12" cy="-205" r="6"/>
+      <circle cx="8" cy="-208" r="5"/>
+      <circle cx="-3" cy="-200" r="6"/>
+    </g>
+  </g>
+    <!-- ヤシの木 (右手前) -->
+    <g transform="translate(1689.6,918) scale(1.4)">
+    <path d="M 0 0 Q -3 -100 -6 -200 Q -4 -210 -3 -220 L 3 -220 Q 4 -210 6 -200 Q 3 -100 0 0 Z" fill="#2B3E3B"/>
+    <g fill="#5A8569" opacity="0.92">
+      <path d="M 0 -215 Q -90 -250 -160 -210 Q -90 -235 0 -200 Z"/>
+      <path d="M 0 -215 Q 90 -255 165 -215 Q 90 -240 0 -200 Z"/>
+      <path d="M 0 -215 Q -50 -280 -110 -290 Q -50 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q 55 -280 120 -290 Q 55 -270 0 -210 Z"/>
+      <path d="M 0 -215 Q -20 -300 -30 -340 Q -10 -300 0 -220 Z"/>
+      <path d="M 0 -215 Q 25 -300 35 -340 Q 10 -300 0 -220 Z"/>
+    </g>
+    <g fill="#5A8569" opacity="0.6">
+      <circle cx="-12" cy="-205" r="6"/>
+      <circle cx="8" cy="-208" r="5"/>
+      <circle cx="-3" cy="-200" r="6"/>
+    </g>
+  </g>
+    <!-- ボウル (手前テーブル) -->
+    <g transform="translate(614.4,928.8)">
+    <!-- 影 -->
+    <ellipse cx="0" cy="66" rx="252.99999999999997" ry="39.6" fill="#2B3E3B" opacity="0.18"/>
+    <!-- 外周 -->
+    <ellipse cx="0" cy="0" rx="220" ry="136.4" fill="#7BA88B"/>
+    <ellipse cx="0" cy="-4" rx="206.79999999999998" ry="123.20000000000002" fill="#FAF5EC"/>
+    <!-- アサイースムージーベース -->
+    <ellipse cx="0" cy="-2" rx="189.2" ry="114.4" fill="#5C3A6E"/>
+    <!-- トッピング: 苺 -->
+    <ellipse cx="-88" cy="-11" rx="28.6" ry="22" fill="#D14A5A"/>
+    <ellipse cx="-33" cy="-39.6" rx="26.4" ry="19.8" fill="#D14A5A"/>
+    <ellipse cx="70.4" cy="-17.6" rx="30.800000000000004" ry="22" fill="#D14A5A"/>
+    <!-- バナナスライス -->
+    <circle cx="22" cy="26.4" r="19.8" fill="#E8B85C"/>
+    <circle cx="-66" cy="39.6" r="17.6" fill="#E8B85C"/>
+    <circle cx="92.39999999999999" cy="33" r="17.6" fill="#E8B85C"/>
+    <!-- ミント -->
+    <ellipse cx="11" cy="-70.4" rx="22" ry="13.2" fill="#5A8569" transform="rotate(-25 11 -70.4)"/>
+    <!-- グラノーラ点 -->
+    <circle cx="66" cy="-2" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="94.15459511322018" cy="16.355609465871872" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="106.79024325749306" cy="44.55259198156387" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="38.79382665130323" cy="30.037072977247917" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="30.592682443119795" cy="54.49275706793211" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="8.082668874372531e-15" cy="77.2" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-20.395121628746523" cy="35.661838045288086" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-58.19073997695482" cy="46.05560946587187" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-106.79024325749305" cy="44.55259198156388" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-62.76973007548013" cy="10.237072977247921" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-98.99999999999999" cy="-1.9999999999999927" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-125.53946015096027" cy="-26.47414595449586" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-53.39512162874653" cy="-25.276295990781932" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-58.190739976954845" cy="-50.05560946587186" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-40.79024325749308" cy="-77.32367609057616" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="-1.2124003311558795e-14" cy="-41.6" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="30.59268244311977" cy="-58.49275706793212" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="77.58765330260643" cy="-66.07414595449585" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="53.39512162874652" cy="-25.276295990781943" r="3" fill="#A87B4A" opacity="0.75"/><circle cx="94.15459511322018" cy="-20.355609465871886" r="3" fill="#A87B4A" opacity="0.75"/>
+  </g>
+    <!-- 余韻のテキスト -->
+    <text x="96" y="140.4" fill="#2B3E3B" font-family="Georgia, serif" font-size="48" letter-spacing="6" opacity="0.55">SUNDAY BOWLS</text>
+    <text x="96" y="199.8" fill="#3FA9A1" font-family="Georgia, serif" font-style="italic" font-size="28" opacity="0.7">— morning by the sea —</text>
+  </svg>

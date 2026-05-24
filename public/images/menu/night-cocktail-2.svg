@@ -1,18 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Moonlight Blue Hawaii">
-  <defs>
-    <linearGradient id="g171q71m" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A2030"/>
-      <stop offset="100%" stop-color="#4A6B5F"/>
-    </linearGradient>
-    <radialGradient id="g2hr837s" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D17B4A" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="900" fill="url(#g171q71m)"/>
-  <circle cx="600" cy="405" r="288" fill="url(#g2hr837s)"/>
-  <g fill="#F2E8D5" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="774" text-anchor="middle" font-size="45" letter-spacing="2">MOONDAY BAR</text>
-    <text x="50%" y="828" text-anchor="middle" font-size="32" opacity="0.7">Moonlight Blue Hawaii</text>
+    <defs>
+      <linearGradient id="coc2_bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0E1426"/>
+        <stop offset="100%" stop-color="#1A2030"/>
+      </linearGradient>
+      <radialGradient id="coc2_spot" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.25"/>
+        <stop offset="100%" stop-color="#E8B85C" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1200" height="900" fill="url(#coc2_bg)"/>
+    <rect width="1200" height="900" fill="url(#coc2_spot)"/>
+    <!-- バー天面 -->
+    <rect x="0" y="675" width="1200" height="225" fill="#2A3650"/>
+    <line x1="0" y1="675" x2="1200" y2="675" stroke="#E8B85C" stroke-width="1" opacity="0.4"/>
+    <!-- ティキランタンの遠景 -->
+    <g opacity="0.55">
+      <g transform="translate(144,702) scale(0.8)">
+    <!-- 棒 -->
+    <rect x="-4" y="0" width="8" height="220" fill="#F2E8D5" opacity="0.95"/>
+    <!-- 受け皿 -->
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="#F2E8D5"/>
+    <path d="M -22 0 L -14 -16 L 14 -16 L 22 0 Z" fill="#F2E8D5"/>
+    <!-- 炎 -->
+    <path d="M 0 -16 Q -14 -38 -8 -55 Q 0 -45 0 -65 Q 8 -45 8 -55 Q 14 -38 0 -16 Z" fill="#D17B4A"/>
+    <path d="M 0 -22 Q -8 -36 -4 -48 Q 0 -38 0 -55 Q 4 -38 4 -48 Q 8 -36 0 -22 Z" fill="#E8B85C"/>
+    <circle cx="0" cy="-40" r="14" fill="#E8B85C" opacity="0.35"/>
   </g>
-</svg>
+      <g transform="translate(1056,702) scale(0.8)">
+    <!-- 棒 -->
+    <rect x="-4" y="0" width="8" height="220" fill="#F2E8D5" opacity="0.95"/>
+    <!-- 受け皿 -->
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="#F2E8D5"/>
+    <path d="M -22 0 L -14 -16 L 14 -16 L 22 0 Z" fill="#F2E8D5"/>
+    <!-- 炎 -->
+    <path d="M 0 -16 Q -14 -38 -8 -55 Q 0 -45 0 -65 Q 8 -45 8 -55 Q 14 -38 0 -16 Z" fill="#D17B4A"/>
+    <path d="M 0 -22 Q -8 -36 -4 -48 Q 0 -38 0 -55 Q 4 -38 4 -48 Q 8 -36 0 -22 Z" fill="#E8B85C"/>
+    <circle cx="0" cy="-40" r="14" fill="#E8B85C" opacity="0.35"/>
+  </g>
+    </g>
+    <!-- グラスを大きく中央に -->
+    <g transform="translate(600,558)">
+      
+    <path d="M -160 -120 L 160 -120 L 90 50 Q 70 62 0 64 Q -70 62 -90 50 Z" fill="#1A2030" stroke="#F2E8D5" stroke-width="2" opacity="0.55"/>
+    <path d="M -148 -110 L 148 -110 L 84 42 Q 64 54 0 56 Q -64 54 -84 42 Z" fill="#3F6EA9" opacity="0.95"/>
+    <ellipse cx="0" cy="-110" rx="148" ry="14" fill="#F4DA9C" opacity="0.55"/>
+    <!-- ハイライト -->
+    <path d="M -130 -100 L -85 30" stroke="#F4DA9C" stroke-width="3" opacity="0.45"/>
+  <g transform="translate(-50,-115)">
+      <circle cx="0" cy="0" r="14" fill="#A12536"/>
+      <circle cx="-4" cy="-5" r="4" fill="#F4DA9C" opacity="0.7"/>
+      <path d="M 0 -14 Q 18 -32 36 -28" stroke="#7BA88B" stroke-width="2" fill="none"/>
+    </g><rect x="-3" y="60" width="6" height="120" fill="#F2E8D5"/><ellipse cx="0" cy="184" rx="80" ry="8" fill="#F2E8D5"/>
+    </g>
+    <text x="48" y="837" fill="#F2E8D5" font-family="Georgia, serif" font-size="26" opacity="0.9">Moonlight Blue Hawaii</text>
+    <text x="48" y="882" fill="#E8B85C" font-family="Georgia, serif" font-size="14" letter-spacing="3" opacity="0.85">MOONDAY BAR</text>
+  </svg>

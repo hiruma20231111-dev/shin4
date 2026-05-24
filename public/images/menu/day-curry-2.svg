@@ -1,18 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Green Veg Curry">
-  <defs>
-    <linearGradient id="g19d8tc5" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FAF5EC"/>
-      <stop offset="100%" stop-color="#7BA88B"/>
-    </linearGradient>
-    <radialGradient id="g21pwxm9" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E89B6C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3FA9A1" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="900" fill="url(#g19d8tc5)"/>
-  <circle cx="600" cy="405" r="288" fill="url(#g21pwxm9)"/>
-  <g fill="#2B3E3B" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="774" text-anchor="middle" font-size="45" letter-spacing="2">SUNDAY BOWLS</text>
-    <text x="50%" y="828" text-anchor="middle" font-size="32" opacity="0.7">Green Veg Curry</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Garden Green Curry">
+    <defs>
+      <radialGradient id="curry2_table" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#F0E6D2"/>
+        <stop offset="100%" stop-color="#D9C9A8"/>
+      </radialGradient>
+    </defs>
+    <rect width="1200" height="900" fill="url(#curry2_table)"/>
+    <path d="M 0 0.0 Q 600 20.0 1200 0.0" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 128.6 Q 600 148.6 1200 128.6" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 257.1 Q 600 277.1 1200 257.1" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 385.7 Q 600 405.7 1200 385.7" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 514.3 Q 600 534.3 1200 514.3" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 642.9 Q 600 662.9 1200 642.9" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/><path d="M 0 771.4 Q 600 791.4 1200 771.4" stroke="#2B3E3B" stroke-width="1" fill="none" opacity="0.06"/>
+    <ellipse cx="630" cy="500" rx="430" ry="270" fill="#2B3E3B" opacity="0.18"/>
+    <g transform="translate(600,450)">
+      <!-- 平皿 -->
+      <ellipse cx="0" cy="0" rx="360" ry="220" fill="#FAF5EC"/>
+      <ellipse cx="0" cy="-5" rx="340" ry="208" fill="#F2EAD8"/>
+      <!-- ライス (半月型) -->
+      <path d="M -240 -40 Q -120 -120 0 -100 L 0 60 Q -160 80 -260 30 Z" fill="#F2EAD8"/>
+      <ellipse cx="-130" cy="-60" rx="80" ry="30" fill="#F2EAD8" opacity="0.7"/>
+      <!-- カレー (半月型, 反対側) -->
+      <path d="M 240 -40 Q 120 -120 0 -100 L 0 60 Q 160 80 260 30 Z" fill="#7BA88B"/>
+      <ellipse cx="160" cy="-30" rx="60" ry="22" fill="#7BA88B" opacity="0.85"/>
+      <!-- 具材 (鶏/海老/野菜の見立て) -->
+      <ellipse cx="180" cy="-15" rx="22" ry="14" fill="#E89B6C" opacity="0.9"/>
+      <ellipse cx="120" cy="20" rx="20" ry="12" fill="#E89B6C" opacity="0.9"/>
+      <ellipse cx="210" cy="25" rx="16" ry="10" fill="#5A8569" opacity="0.85"/>
+      <ellipse cx="80" cy="-30" rx="14" ry="9" fill="#5A8569" opacity="0.85"/>
+      <!-- パクチー -->
+      <g transform="translate(40,-50)" fill="#5A8569">
+        <circle cx="0" cy="0" r="6"/>
+        <circle cx="-7" cy="4" r="5"/>
+        <circle cx="6" cy="6" r="5"/>
+        <circle cx="-3" cy="-7" r="4"/>
+      </g>
+      <!-- 黒コショウ点 -->
+      <circle cx="80" cy="40" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="94" cy="48" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="108" cy="56" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="122" cy="40" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="136" cy="48" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="150" cy="56" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="164" cy="40" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="178" cy="48" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="192" cy="56" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="206" cy="40" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="220" cy="48" r="1.5" fill="#2B3E3B" opacity="0.7"/><circle cx="234" cy="56" r="1.5" fill="#2B3E3B" opacity="0.7"/>
+    </g>
+    <text x="48" y="828" fill="#2B3E3B" font-family="Georgia, serif" font-size="26" opacity="0.8">Garden Green Curry</text>
+    <text x="48" y="873" fill="#3FA9A1" font-family="Georgia, serif" font-size="14" letter-spacing="3" opacity="0.7">SUNDAY BOWLS</text>
+  </svg>

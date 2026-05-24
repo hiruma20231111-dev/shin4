@@ -1,18 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Post #6">
-  <defs>
-    <linearGradient id="g1vj9uux" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A2030"/>
-      <stop offset="100%" stop-color="#4A6B5F"/>
-    </linearGradient>
-    <radialGradient id="g25u2bj8" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D17B4A" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1000" height="1000" fill="url(#g1vj9uux)"/>
-  <circle cx="500" cy="450" r="320" fill="url(#g25u2bj8)"/>
-  <g fill="#F2E8D5" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">@moonday_bar</text>
-    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Post #6</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="月明かり">
+      <defs>
+        <linearGradient id="n5_sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0E1426"/>
+          <stop offset="100%" stop-color="#2A3650"/>
+        </linearGradient>
+        <radialGradient id="n5_moon">
+          <stop offset="0%" stop-color="#F4DA9C" stop-opacity="1"/>
+          <stop offset="60%" stop-color="#E8B85C" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="#E8B85C" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="1000" height="1000" fill="url(#n5_sky)"/>
+      <circle cx="910" cy="238" r="1.84" fill="#F2E8D5" opacity="0.78"/><circle cx="424" cy="595" r="0.80" fill="#F2E8D5" opacity="0.50"/><circle cx="938" cy="636" r="1.55" fill="#F2E8D5" opacity="0.71"/><circle cx="451" cy="293" r="1.91" fill="#F2E8D5" opacity="0.43"/><circle cx="965" cy="334" r="1.25" fill="#F2E8D5" opacity="0.64"/><circle cx="479" cy="690" r="1.62" fill="#F2E8D5" opacity="0.64"/><circle cx="993" cy="347" r="1.21" fill="#F2E8D5" opacity="0.45"/><circle cx="507" cy="388" r="1.32" fill="#F2E8D5" opacity="0.80"/><circle cx="21" cy="44" r="1.37" fill="#F2E8D5" opacity="0.59"/><circle cx="535" cy="85" r="1.03" fill="#F2E8D5" opacity="0.67"/><circle cx="801" cy="161" r="1.03" fill="#F2E8D5" opacity="0.89"/><circle cx="315" cy="360" r="0.89" fill="#F2E8D5" opacity="0.80"/><circle cx="829" cy="559" r="0.74" fill="#F2E8D5" opacity="0.88"/><circle cx="343" cy="136" r="1.70" fill="#F2E8D5" opacity="0.50"/><circle cx="857" cy="335" r="1.24" fill="#F2E8D5" opacity="0.84"/><circle cx="371" cy="534" r="1.41" fill="#F2E8D5" opacity="0.49"/><circle cx="885" cy="33" r="0.95" fill="#F2E8D5" opacity="0.72"/><circle cx="399" cy="310" r="1.91" fill="#F2E8D5" opacity="0.46"/><circle cx="912" cy="509" r="0.68" fill="#F2E8D5" opacity="0.61"/><circle cx="426" cy="8" r="1.62" fill="#F2E8D5" opacity="0.78"/><circle cx="731" cy="34" r="1.03" fill="#F2E8D5" opacity="0.58"/><circle cx="245" cy="233" r="1.97" fill="#F2E8D5" opacity="0.42"/><circle cx="759" cy="431" r="0.74" fill="#F2E8D5" opacity="0.57"/><circle cx="273" cy="9" r="1.39" fill="#F2E8D5" opacity="0.46"/><circle cx="787" cy="208" r="1.24" fill="#F2E8D5" opacity="0.53"/><circle cx="301" cy="407" r="1.09" fill="#F2E8D5" opacity="0.61"/><circle cx="814" cy="684" r="1.74" fill="#F2E8D5" opacity="0.50"/><circle cx="328" cy="183" r="1.91" fill="#F2E8D5" opacity="0.65"/><circle cx="842" cy="382" r="1.45" fill="#F2E8D5" opacity="0.44"/><circle cx="356" cy="660" r="1.02" fill="#F2E8D5" opacity="0.62"/><circle cx="661" cy="607" r="1.80" fill="#F2E8D5" opacity="0.46"/><circle cx="175" cy="106" r="1.81" fill="#F2E8D5" opacity="0.71"/><circle cx="689" cy="383" r="1.53" fill="#F2E8D5" opacity="0.79"/><circle cx="203" cy="582" r="1.07" fill="#F2E8D5" opacity="0.58"/><circle cx="716" cy="81" r="1.24" fill="#F2E8D5" opacity="0.67"/><circle cx="230" cy="359" r="1.73" fill="#F2E8D5" opacity="0.83"/><circle cx="744" cy="557" r="1.74" fill="#F2E8D5" opacity="0.69"/><circle cx="258" cy="56" r="1.60" fill="#F2E8D5" opacity="0.60"/><circle cx="772" cy="255" r="1.45" fill="#F2E8D5" opacity="0.62"/><circle cx="286" cy="533" r="1.02" fill="#F2E8D5" opacity="0.81"/><circle cx="591" cy="480" r="1.80" fill="#F2E8D5" opacity="0.65"/><circle cx="105" cy="57" r="1.21" fill="#F2E8D5" opacity="0.43"/><circle cx="619" cy="256" r="0.90" fill="#F2E8D5" opacity="0.62"/><circle cx="132" cy="455" r="0.91" fill="#F2E8D5" opacity="0.48"/><circle cx="646" cy="33" r="0.64" fill="#F2E8D5" opacity="0.89"/><circle cx="160" cy="231" r="1.57" fill="#F2E8D5" opacity="0.73"/><circle cx="674" cy="430" r="1.74" fill="#F2E8D5" opacity="0.88"/><circle cx="188" cy="629" r="1.28" fill="#F2E8D5" opacity="0.67"/><circle cx="702" cy="207" r="0.85" fill="#F2E8D5" opacity="0.85"/><circle cx="216" cy="406" r="1.94" fill="#F2E8D5" opacity="0.42"/>
+      <circle cx="500" cy="420" r="280" fill="url(#n5_moon)"/>
+      <circle cx="500" cy="420" r="130" fill="#F4DA9C"/>
+      <circle cx="472" cy="400" r="115" fill="#1A2030"/>
+      <rect x="0" y="750" width="1000" height="250" fill="#0F1828"/>
+      <path d="M 400 750 L 600 750 L 560 1000 L 440 1000 Z" fill="#F4DA9C" opacity="0.4"/>
+    <text x="20" y="980" fill="#F2E8D5" font-family="Georgia, serif" font-size="18" opacity="0.7">@moonday_bar</text></svg>

@@ -1,18 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Post #5">
-  <defs>
-    <linearGradient id="g1qhqsav" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A2030"/>
-      <stop offset="100%" stop-color="#4A6B5F"/>
-    </linearGradient>
-    <radialGradient id="g2lp3icv" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D17B4A" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1000" height="1000" fill="url(#g1qhqsav)"/>
-  <circle cx="500" cy="450" r="320" fill="url(#g2lp3icv)"/>
-  <g fill="#F2E8D5" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">@moonday_bar</text>
-    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Post #5</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="ポキ">
+      <rect width="1000" height="1000" fill="#1A2030"/>
+      <g transform="translate(500,500)">
+        <ellipse cx="0" cy="0" rx="320" ry="200" fill="#4A6B5F" opacity="0.85"/>
+        <ellipse cx="0" cy="-4" rx="305" ry="190" fill="#2A3650"/>
+        <ellipse cx="100" cy="0" rx="40" ry="28" fill="#C68A4A" opacity="0.9"/><ellipse cx="50" cy="61" rx="50" ry="36" fill="#C68A4A" opacity="0.9"/><ellipse cx="-50" cy="61" rx="40" ry="28" fill="#C68A4A" opacity="0.9"/><ellipse cx="-100" cy="0" rx="50" ry="36" fill="#C68A4A" opacity="0.9"/><ellipse cx="-50" cy="-61" rx="40" ry="28" fill="#C68A4A" opacity="0.9"/><ellipse cx="50" cy="-61" rx="50" ry="36" fill="#C68A4A" opacity="0.9"/>
+        <circle cx="60" cy="-50" r="16" fill="#E8B85C"/>
+      </g>
+    <text x="20" y="980" fill="#F2E8D5" font-family="Georgia, serif" font-size="18" opacity="0.7">@moonday_bar</text></svg>

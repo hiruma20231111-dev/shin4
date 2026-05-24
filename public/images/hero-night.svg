@@ -1,18 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tiki Nights, Rum & Plates">
-  <defs>
-    <linearGradient id="g1xzalgb" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A2030"/>
-      <stop offset="100%" stop-color="#4A6B5F"/>
-    </linearGradient>
-    <radialGradient id="g2nlrt82" cx="50%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D17B4A" stop-opacity="0.0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1920" height="1080" fill="url(#g1xzalgb)"/>
-  <circle cx="960" cy="486" r="345.6" fill="url(#g2nlrt82)"/>
-  <g fill="#F2E8D5" font-family="Georgia, 'Times New Roman', serif">
-    <text x="50%" y="928.8" text-anchor="middle" font-size="54" letter-spacing="2">MOONDAY BAR</text>
-    <text x="50%" y="993.6" text-anchor="middle" font-size="38" opacity="0.7">Tiki Nights, Rum & Plates</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Moonday Bar 月夜のヒーロービジュアル">
+    <defs>
+      <linearGradient id="hn_sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0E1426"/>
+        <stop offset="60%" stop-color="#1A2030"/>
+        <stop offset="100%" stop-color="#2A3650"/>
+      </linearGradient>
+      <radialGradient id="hn_moon" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#F4DA9C" stop-opacity="0.9"/>
+        <stop offset="50%" stop-color="#E8B85C" stop-opacity="0.3"/>
+        <stop offset="100%" stop-color="#E8B85C" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="hn_reflect" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F4DA9C" stop-opacity="0.7"/>
+        <stop offset="100%" stop-color="#F4DA9C" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#hn_sky)"/>
+    <!-- 星 -->
+    <circle cx="1251.5" cy="35.8" r="1.80" fill="#F2E8D5" opacity="0.45"/><circle cx="318.1" cy="338.4" r="2.03" fill="#F2E8D5" opacity="0.44"/><circle cx="1304.7" cy="507.1" r="1.68" fill="#F2E8D5" opacity="0.53"/><circle cx="371.3" cy="81.8" r="1.70" fill="#F2E8D5" opacity="0.86"/><circle cx="1357.9" cy="250.5" r="2.07" fill="#F2E8D5" opacity="0.92"/><circle cx="424.6" cy="419.2" r="1.36" fill="#F2E8D5" opacity="0.92"/><circle cx="1411.2" cy="587.9" r="1.01" fill="#F2E8D5" opacity="0.36"/><circle cx="477.8" cy="162.6" r="1.20" fill="#F2E8D5" opacity="0.55"/><circle cx="1464.4" cy="465.1" r="1.62" fill="#F2E8D5" opacity="0.84"/><circle cx="531.0" cy="39.8" r="1.45" fill="#F2E8D5" opacity="0.72"/><circle cx="1538.1" cy="321.9" r="0.67" fill="#F2E8D5" opacity="0.97"/><circle cx="604.7" cy="30.5" r="1.09" fill="#F2E8D5" opacity="0.53"/><circle cx="1591.3" cy="65.3" r="1.93" fill="#F2E8D5" opacity="0.81"/><circle cx="657.9" cy="367.9" r="0.75" fill="#F2E8D5" opacity="0.52"/><circle cx="1644.5" cy="402.7" r="1.60" fill="#F2E8D5" opacity="0.79"/><circle cx="711.2" cy="111.3" r="2.01" fill="#F2E8D5" opacity="0.36"/><circle cx="1697.8" cy="146.1" r="1.26" fill="#F2E8D5" opacity="0.71"/><circle cx="764.4" cy="448.7" r="1.68" fill="#F2E8D5" opacity="0.99"/><circle cx="1751.0" cy="157.3" r="2.09" fill="#F2E8D5" opacity="0.63"/><circle cx="817.6" cy="192.1" r="1.34" fill="#F2E8D5" opacity="0.90"/><circle cx="1403.3" cy="281.0" r="1.58" fill="#F2E8D5" opacity="0.61"/><circle cx="469.9" cy="315.8" r="0.83" fill="#F2E8D5" opacity="0.89"/><circle cx="1456.5" cy="24.4" r="1.24" fill="#F2E8D5" opacity="0.45"/><circle cx="523.1" cy="327.0" r="1.66" fill="#F2E8D5" opacity="0.81"/><circle cx="1509.7" cy="361.8" r="0.91" fill="#F2E8D5" opacity="0.44"/><circle cx="576.4" cy="70.4" r="1.32" fill="#F2E8D5" opacity="0.65"/><circle cx="1563.0" cy="105.2" r="2.17" fill="#F2E8D5" opacity="0.93"/><circle cx="629.6" cy="407.8" r="0.99" fill="#F2E8D5" opacity="0.64"/><circle cx="1616.2" cy="442.6" r="1.84" fill="#F2E8D5" opacity="0.91"/><circle cx="682.8" cy="151.2" r="0.65" fill="#F2E8D5" opacity="0.55"/><circle cx="1268.5" cy="240.1" r="0.89" fill="#F2E8D5" opacity="0.91"/><circle cx="335.1" cy="274.9" r="1.56" fill="#F2E8D5" opacity="0.81"/><circle cx="1321.7" cy="577.5" r="2.15" fill="#F2E8D5" opacity="0.82"/><circle cx="388.3" cy="18.3" r="1.22" fill="#F2E8D5" opacity="0.58"/><circle cx="1374.9" cy="320.9" r="1.82" fill="#F2E8D5" opacity="0.73"/><circle cx="441.6" cy="29.5" r="2.05" fill="#F2E8D5" opacity="0.50"/><circle cx="1428.2" cy="64.3" r="1.48" fill="#F2E8D5" opacity="0.57"/><circle cx="494.8" cy="366.9" r="1.90" fill="#F2E8D5" opacity="0.93"/><circle cx="1481.4" cy="401.7" r="1.15" fill="#F2E8D5" opacity="0.55"/><circle cx="548.0" cy="110.3" r="1.56" fill="#F2E8D5" opacity="0.77"/><circle cx="1133.7" cy="525.4" r="0.63" fill="#F2E8D5" opacity="0.54"/><circle cx="200.3" cy="234.0" r="0.87" fill="#F2E8D5" opacity="0.45"/><circle cx="1186.9" cy="536.6" r="1.46" fill="#F2E8D5" opacity="0.46"/><circle cx="253.5" cy="571.4" r="2.13" fill="#F2E8D5" opacity="0.37"/><circle cx="1240.2" cy="280.0" r="1.13" fill="#F2E8D5" opacity="0.37"/><circle cx="306.8" cy="314.8" r="1.80" fill="#F2E8D5" opacity="0.93"/><circle cx="1293.4" cy="23.4" r="0.79" fill="#F2E8D5" opacity="0.86"/><circle cx="360.0" cy="58.2" r="1.46" fill="#F2E8D5" opacity="0.69"/><circle cx="1346.6" cy="360.8" r="2.06" fill="#F2E8D5" opacity="0.85"/><circle cx="413.3" cy="69.3" r="0.69" fill="#F2E8D5" opacity="0.62"/><circle cx="998.9" cy="484.5" r="1.54" fill="#F2E8D5" opacity="0.83"/><circle cx="65.5" cy="193.1" r="1.78" fill="#F2E8D5" opacity="0.75"/><circle cx="1052.1" cy="227.9" r="1.21" fill="#F2E8D5" opacity="0.74"/><circle cx="118.7" cy="530.5" r="1.44" fill="#F2E8D5" opacity="0.66"/><circle cx="1105.4" cy="239.1" r="2.04" fill="#F2E8D5" opacity="0.67"/><circle cx="172.0" cy="273.9" r="1.11" fill="#F2E8D5" opacity="0.57"/><circle cx="1158.6" cy="576.5" r="1.70" fill="#F2E8D5" opacity="0.58"/><circle cx="225.2" cy="17.3" r="0.77" fill="#F2E8D5" opacity="0.91"/><circle cx="1211.8" cy="319.9" r="1.37" fill="#F2E8D5" opacity="0.49"/><circle cx="278.5" cy="354.7" r="2.04" fill="#F2E8D5" opacity="0.40"/><circle cx="864.1" cy="443.6" r="0.85" fill="#F2E8D5" opacity="0.47"/><circle cx="1850.7" cy="152.2" r="1.27" fill="#F2E8D5" opacity="0.76"/><circle cx="917.3" cy="187.0" r="2.12" fill="#F2E8D5" opacity="0.39"/><circle cx="1903.9" cy="489.6" r="0.93" fill="#F2E8D5" opacity="0.67"/><circle cx="970.6" cy="524.4" r="1.78" fill="#F2E8D5" opacity="0.95"/><circle cx="37.2" cy="233.0" r="1.84" fill="#F2E8D5" opacity="0.39"/><circle cx="1023.8" cy="535.6" r="1.01" fill="#F2E8D5" opacity="0.87"/><circle cx="90.4" cy="570.4" r="1.68" fill="#F2E8D5" opacity="0.78"/><circle cx="1077.0" cy="279.0" r="0.68" fill="#F2E8D5" opacity="0.78"/><circle cx="143.7" cy="313.8" r="1.35" fill="#F2E8D5" opacity="0.69"/><circle cx="729.3" cy="402.7" r="1.76" fill="#F2E8D5" opacity="0.77"/><circle cx="1715.9" cy="437.5" r="1.01" fill="#F2E8D5" opacity="0.39"/><circle cx="782.5" cy="146.1" r="1.43" fill="#F2E8D5" opacity="0.68"/><circle cx="1769.1" cy="448.7" r="1.84" fill="#F2E8D5" opacity="0.97"/><circle cx="835.8" cy="483.5" r="1.09" fill="#F2E8D5" opacity="0.59"/><circle cx="1822.4" cy="192.1" r="1.51" fill="#F2E8D5" opacity="0.88"/><circle cx="889.0" cy="226.9" r="0.76" fill="#F2E8D5" opacity="0.50"/><circle cx="1875.6" cy="529.5" r="2.05" fill="#F2E8D5" opacity="0.97"/><circle cx="942.2" cy="564.3" r="2.02" fill="#F2E8D5" opacity="0.42"/><circle cx="8.9" cy="272.9" r="2.08" fill="#F2E8D5" opacity="0.51"/>
+    <!-- 月の光輪 -->
+    <circle cx="1382.3999999999999" cy="302.40000000000003" r="360" fill="url(#hn_moon)"/>
+    <!-- 月本体 -->
+    <circle cx="1382.3999999999999" cy="302.40000000000003" r="140" fill="#F4DA9C"/>
+    <circle cx="1315.2" cy="280.8" r="125" fill="#1A2030"/>
+    <!-- 海 -->
+    <rect x="0" y="648" width="1920" height="432" fill="#0F1828"/>
+    <!-- 月の反射 -->
+    <path d="M 1152 648 L 1612.8 648 L 1497.6000000000001 1080 L 1267.2 1080 Z" fill="url(#hn_reflect)"/>
+    <!-- 海面波線 -->
+    <g stroke="#F4DA9C" stroke-width="1.5" fill="none" opacity="0.35">
+      <path d="M 0 669.6 Q 384 664.6 768 669.6 T 1536 669.6 T 1920 669.6"/><path d="M 0 704.6 Q 384 699.6 768 704.6 T 1536 704.6 T 1920 704.6"/><path d="M 0 739.6 Q 384 734.6 768 739.6 T 1536 739.6 T 1920 739.6"/><path d="M 0 774.6 Q 384 769.6 768 774.6 T 1536 774.6 T 1920 774.6"/><path d="M 0 809.6 Q 384 804.6 768 809.6 T 1536 809.6 T 1920 809.6"/><path d="M 0 844.6 Q 384 839.6 768 844.6 T 1536 844.6 T 1920 844.6"/><path d="M 0 879.6 Q 384 874.6 768 879.6 T 1536 879.6 T 1920 879.6"/><path d="M 0 914.6 Q 384 909.6 768 914.6 T 1536 914.6 T 1920 914.6"/>
+    </g>
+    <!-- ティキトーチ (左) -->
+    <g transform="translate(153.6,810) scale(1.2)">
+    <!-- 棒 -->
+    <rect x="-4" y="0" width="8" height="220" fill="#F2E8D5" opacity="0.95"/>
+    <!-- 受け皿 -->
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="#F2E8D5"/>
+    <path d="M -22 0 L -14 -16 L 14 -16 L 22 0 Z" fill="#F2E8D5"/>
+    <!-- 炎 -->
+    <path d="M 0 -16 Q -14 -38 -8 -55 Q 0 -45 0 -65 Q 8 -45 8 -55 Q 14 -38 0 -16 Z" fill="#D17B4A"/>
+    <path d="M 0 -22 Q -8 -36 -4 -48 Q 0 -38 0 -55 Q 4 -38 4 -48 Q 8 -36 0 -22 Z" fill="#E8B85C"/>
+    <circle cx="0" cy="-40" r="14" fill="#E8B85C" opacity="0.35"/>
   </g>
-</svg>
+    <g transform="translate(307.2,885.5999999999999) scale(1)">
+    <!-- 棒 -->
+    <rect x="-4" y="0" width="8" height="220" fill="#F2E8D5" opacity="0.95"/>
+    <!-- 受け皿 -->
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="#F2E8D5"/>
+    <path d="M -22 0 L -14 -16 L 14 -16 L 22 0 Z" fill="#F2E8D5"/>
+    <!-- 炎 -->
+    <path d="M 0 -16 Q -14 -38 -8 -55 Q 0 -45 0 -65 Q 8 -45 8 -55 Q 14 -38 0 -16 Z" fill="#D17B4A"/>
+    <path d="M 0 -22 Q -8 -36 -4 -48 Q 0 -38 0 -55 Q 4 -38 4 -48 Q 8 -36 0 -22 Z" fill="#E8B85C"/>
+    <circle cx="0" cy="-40" r="14" fill="#E8B85C" opacity="0.35"/>
+  </g>
+    <!-- カクテルグラス (右手前) -->
+    <g transform="translate(1497.6000000000001,885.5999999999999) scale(1.8)">
+    <!-- グラス輪郭 (クープ型) -->
+    <path d="M -55 -60 L 55 -60 L 35 -10 Q 30 -2 0 0 Q -30 -2 -35 -10 Z" fill="#1A2030" stroke="#F2E8D5" stroke-width="1.5" opacity="0.65"/>
+    <!-- 液体 -->
+    <path d="M -50 -55 L 50 -55 L 32 -14 Q 28 -8 0 -7 Q -28 -8 -32 -14 Z" fill="#C68A4A" opacity="0.95"/>
+    <!-- 表面ハイライト -->
+    <ellipse cx="0" cy="-55" rx="50" ry="6" fill="#F4DA9C" opacity="0.7"/>
+    <!-- ステム -->
+    <rect x="-2" y="0" width="4" height="56" fill="#F2E8D5"/>
+    <ellipse cx="0" cy="58" rx="36" ry="4" fill="#F2E8D5"/>
+    <!-- ガーニッシュ (パイナップル葉) -->
+    <g transform="translate(36,-58)">
+      <path d="M 0 0 L 4 -22 L 8 0 Z" fill="#7BA88B"/>
+      <path d="M 4 0 L 10 -28 L 14 0 Z" fill="#7BA88B"/>
+      <path d="M 10 0 L 14 -20 L 18 0 Z" fill="#7BA88B"/>
+    </g>
+    <!-- 月光反射 -->
+    <ellipse cx="-25" cy="-40" rx="6" ry="2" fill="#F4DA9C" opacity="0.6"/>
+  </g>
+    <!-- 余韻のテキスト -->
+    <text x="96" y="140.4" fill="#F2E8D5" font-family="Georgia, serif" font-size="48" letter-spacing="8" opacity="0.7">MOONDAY BAR</text>
+    <text x="96" y="199.8" fill="#E8B85C" font-family="Georgia, serif" font-style="italic" font-size="28" opacity="0.85">— a tiki night by the shore —</text>
+  </svg>

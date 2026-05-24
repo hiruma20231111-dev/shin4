@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Post #5">
+  <defs>
+    <linearGradient id="g1qhqsav" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A2030"/>
+      <stop offset="100%" stop-color="#4A6B5F"/>
+    </linearGradient>
+    <radialGradient id="g2lp3icv" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#E8B85C" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D17B4A" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#g1qhqsav)"/>
+  <circle cx="500" cy="450" r="320" fill="url(#g2lp3icv)"/>
+  <g fill="#F2E8D5" font-family="Georgia, 'Times New Roman', serif">
+    <text x="50%" y="860" text-anchor="middle" font-size="50" letter-spacing="2">@moonday_bar</text>
+    <text x="50%" y="920" text-anchor="middle" font-size="35" opacity="0.7">Post #5</text>
+  </g>
+</svg>

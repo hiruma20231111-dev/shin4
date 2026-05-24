@@ -9,7 +9,7 @@
 // - 送信完了済みデータは別状態に保持し、モード切替の確認対象外
 // ====================================================================
 
-import { useEffect, useId, useRef, useState } from 'react';
+import { useEffect, useId, useMemo, useRef, useState } from 'react';
 
 import {
   MIN_TOUCH_TARGET_PX,
@@ -49,6 +49,15 @@ export function ReservationForm() {
   const [submitted, setSubmitted] = useState(false);
 
   const idPrefix = useId();
+
+  // 過去日の選択を抑止する <input type="date"> 用の min 値 (YYYY-MM-DD ローカル日付)
+  const todayIso = useMemo(() => {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }, []);
 
   // マウント時: localStorage からドラフトを復元 (同一モードのみ)
   useEffect(() => {
@@ -262,6 +271,7 @@ export function ReservationForm() {
             name="date"
             type="date"
             required
+            min={todayIso}
             value={draft.date}
             onChange={(e) => update('date', e.target.value)}
             className={inputClass(errors.date)}

@@ -3,16 +3,22 @@
 // ====================================================================
 // MobileFixedCtaBar — モバイル下部固定の3タップ導線
 // (LINE / 電話 / フォーム)
+//
+// 3列レイアウトに収めるため、フォーム導線はモード別短縮文言を採用。
+// (長文の secondaryCtaLabel はサイドフロート/最終CTA側で利用)
 // ====================================================================
 
-import { BRANDS } from '@/data/brands';
 import { CONTACT, MIN_TOUCH_TARGET_PX } from '@/lib/constants';
 
 import { useMode } from './ModeProvider';
 
+const FORM_SHORT_LABEL = {
+  day: 'テイクアウト',
+  night: '席予約',
+} as const;
+
 export function MobileFixedCtaBar() {
   const { mode } = useMode();
-  const brand = BRANDS[mode];
   const contact = CONTACT[mode];
 
   const minTouch: React.CSSProperties = {
@@ -38,7 +44,7 @@ export function MobileFixedCtaBar() {
             <span aria-hidden="true" className="text-xl leading-none">
               ◎
             </span>
-            <span className="mt-1 text-[11px] font-semibold">LINE</span>
+            <span className="mt-1 text-[11px] font-semibold">LINE登録</span>
           </a>
         </li>
         <li className="border-x border-day-secondary/30 night:border-night-secondary/30">
@@ -50,9 +56,7 @@ export function MobileFixedCtaBar() {
             <span aria-hidden="true" className="text-xl leading-none">
               ☏
             </span>
-            <span className="mt-1 text-[11px] font-semibold">
-              {mode === 'day' ? '電話' : '電話'}
-            </span>
+            <span className="mt-1 text-[11px] font-semibold">電話</span>
           </a>
         </li>
         <li>
@@ -65,7 +69,7 @@ export function MobileFixedCtaBar() {
               ✎
             </span>
             <span className="mt-1 text-[11px] font-semibold">
-              {brand.secondaryCtaLabel}
+              {FORM_SHORT_LABEL[mode]}
             </span>
           </a>
         </li>

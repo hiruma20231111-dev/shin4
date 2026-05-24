@@ -49,9 +49,17 @@ export function ModeSwitchConfirmDialog({
       aria-modal="true"
       aria-labelledby="mode-switch-confirm-title"
       aria-describedby="mode-switch-confirm-desc"
+      // バックドロップクリックで「入力を続ける」(キャンセル) 動作を兼ねる
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onCancel();
+      }}
       className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center bg-day-text/60 night:bg-night-bg/80 p-4"
     >
-      <div className="w-full max-w-md rounded-mode-lg bg-day-bg night:bg-night-bg p-6 shadow-xl border border-day-secondary/30 night:border-night-secondary/40">
+      <div
+        // ダイアログ本体内のクリックは伝播させない (バックドロップと誤判定させない)
+        onClick={(e) => e.stopPropagation()}
+        className="w-full max-w-md rounded-mode-lg bg-day-bg night:bg-night-bg p-6 shadow-xl border border-day-secondary/30 night:border-night-secondary/40"
+      >
         <h2
           id="mode-switch-confirm-title"
           className="font-serif text-xl text-day-text night:text-night-text"
